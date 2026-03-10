@@ -32,7 +32,7 @@ const FEATURES = [
 export default function Features() {
   return (
     <section id="features" className="section-py" style={{ position: "relative", overflow: "hidden" }}>
-      <div className="orb orb-purple" style={{ width: 500, height: 500, top: "10%", right: -200, opacity: 0.3, filter: "blur(90px)", position: "absolute" }} />
+      <div className="orb orb-purple" style={{ width: 500, height: 500, top: "10%", right: -1100, opacity: 0.3, filter: "blur(90px)", position: "absolute" }} />
       <div className="container" style={{ position: "relative", zIndex: 1 }}>
         <div className="row align-items-end mb-5">
           <div className="col-12 col-md-7">

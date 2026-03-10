@@ -4,7 +4,7 @@ const TESTIMONIALS = [
   {
     name: "Kartik Chanekar",
     role: "Gamer & Content Creator",
-    initial: "R",
+    initial: "K",
     color: "#0ea5e9",
     text: "ImmverseAI completely changed how I experience games. It feels like I'm actually inside the world — nothing else comes close to this level of immersion.",
     rating: 5,
@@ -12,7 +12,7 @@ const TESTIMONIALS = [
   {
     name: "Ayush Sharma",
     role: "3D Artist",
-    initial: "S",
+    initial: "A",
     color: "#0284c7",
     text: "The visual quality is breathtaking. I use ImmverseAI every day for my work and the three-dimensional rendering is the most realistic I've ever seen.",
     rating: 5,
@@ -20,7 +20,7 @@ const TESTIMONIALS = [
   {
     name: "Riya Yadav",
     role: "VR Enthusiast",
-    initial: "W",
+    initial: "R",
     color: "#0369a1",
     text: "From setup to experience, everything is seamless. ImmverseAI delivers on every promise — the virtual world truly feels limitless.",
     rating: 5,

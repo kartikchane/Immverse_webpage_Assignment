@@ -33,12 +33,12 @@ export default function Hero() {
 
           {/* ── LEFT TEXT ── */}
           <div className="col-12 col-lg-5 hero-text-col">
-            <h1 style={{ fontSize: "clamp(1.8rem, 4vw, 3rem)", fontWeight: 800, lineHeight: 1.18, color: "#fff", marginBottom: 18, fontFamily: "var(--font-head)" }}>
+            <h1 style={{ fontSize: "clamp(2.6rem, 5.2vw, 4.4rem)", fontWeight: 800, lineHeight: 1.13, color: "#fff", marginBottom: 20, fontFamily: "var(--font-head)" }}>
               Let&apos;s Explore<br />
               Three-Dimensional<br />
               visual
             </h1>
-            <p className="hero-sub-para" style={{ color: "#b8a8c8", fontSize: 15, lineHeight: 1.75, maxWidth: 400, marginBottom: 28 }}>
+            <p className="hero-sub-para" style={{ color: "#b8a8c8", fontSize: 17, lineHeight: 1.75, maxWidth: 420, marginBottom: 28 }}>
               With virtual technology you can see the digital world feel more
               real and you can play the game with a new style.
             </p>

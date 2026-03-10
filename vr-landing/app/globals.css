@@ -130,7 +130,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* ── SECTION ── */
-.section-py { padding: 90px 0; }
+.section-py { padding: 110px 0; }
 
 /* ── GLOW ORBS ── */
 .orb {
@@ -363,13 +363,13 @@ a { text-decoration: none; color: inherit; }
 
 /* ── SECTION HEADING ── */
 .sec-title {
-  font-size: clamp(1.7rem, 3.2vw, 2.8rem);
+  font-size: clamp(2rem, 4.2vw, 3.6rem);
   font-weight: 800;
   color: #fff;
-  line-height: 1.18;
-  letter-spacing: -.4px;
+  line-height: 1.15;
+  letter-spacing: -.5px;
 }
-.sec-sub { font-size: clamp(15px, 1.5vw, 17px); color: var(--text-sec); line-height: 1.85; max-width: 520px; }
+.sec-sub { font-size: clamp(16px, 1.6vw, 19px); color: var(--text-sec); line-height: 1.85; max-width: 540px; }
 .pink-text { color: var(--pink); }
 
 /* ── GRADIENT TEXT UTILITY ── */

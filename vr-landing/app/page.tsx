@@ -15,8 +15,8 @@ export default function Home() {
       <Experience />
       <Features />
       <Stats />
-      <Testimonials />
       <Products />
+      <Testimonials />
       <CTASection />
       <Footer />
     </main>

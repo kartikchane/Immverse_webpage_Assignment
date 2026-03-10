@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+/* FILE CLEAN — replaced corrupted version */
 export default function Experience() {
   return (
     <section id="experience" className="section-py" style={{ background: "var(--bg)", position: "relative", overflow: "hidden" }}>
@@ -14,7 +15,7 @@ export default function Experience() {
           <div className="col-12 col-lg-6">
             <div className="exp-overlap-wrap" style={{ margin: "0 auto" }}>
 
-              {/* Back card — woman with VR glasses (left) */}
+              {/* Back card — woman with VR glasses */}
               <div className="exp-card-back" style={{ position: "relative" }}>
                 {/* vivid neon border overlay */}
                 <div style={{
@@ -68,19 +69,19 @@ export default function Experience() {
           </div>
 
           {/* RIGHT — text */}
-          <div className="col-12 col-lg-6 exp-text-col" style={{ paddingLeft: "clamp(220px, 4vw, 60px)" }}>
+          <div className="col-12 col-lg-6 exp-text-col" style={{ paddingLeft: "clamp(16px, 6vw, 80px)" }}>
             <h2 className="mb-3" style={{
-              fontSize: "clamp(2rem, 4vw, 3.4rem)",
+              fontSize: "clamp(2.2rem, 4.5vw, 3.8rem)",
               fontWeight: 900,
               color: "#ffffff",
-              lineHeight: 1.12,
+              lineHeight: 1.1,
               letterSpacing: "-0.5px",
               fontFamily: "var(--font-head)",
               textShadow: "0 2px 24px rgba(14,165,233,0.18)",
             }}>
               New Experience In Playing Game
             </h2>
-            <p style={{ color: "#b8a8c8", fontSize: 16, lineHeight: 1.85, maxWidth: 400, marginBottom: 32 }}>
+            <p style={{ color: "#b8a8c8", fontSize: 17, lineHeight: 1.85, maxWidth: 420, marginBottom: 32 }}>
               You can try playing the game with a new style and of course a more real feel,
               like you are the main character in your game and adventure in this new digital world.
             </p>

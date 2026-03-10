@@ -3,9 +3,36 @@
 import Image from "next/image";
 import { FaPlay } from "react-icons/fa";
 
+const COUNTERS = [
+  { value: "400K+", label: "Active Users" },
+  { value: "250+",  label: "VR Games" },
+  { value: "50+",   label: "Countries" },
+  { value: "4.9★",  label: "App Rating" },
+];
+
 export default function Stats() {
   return (
-    <section className="video-band" style={{ position: "relative", overflow: "hidden" }}>
+    <>
+      <section id="stats" className="section-py" style={{ background: "var(--bg2)", position: "relative", overflow: "hidden" }}>
+        <div style={{ position: "absolute", top: -80, right: -100, width: 400, height: 400, borderRadius: "50%", background: "radial-gradient(circle, rgba(14,165,233,0.18) 0%, transparent 70%)", filter: "blur(80px)", pointerEvents: "none" }} />
+        <div className="container" style={{ position: "relative", zIndex: 1 }}>
+          <div className="text-center mb-5">
+            <p className="pink-text mb-2" style={{ fontSize: 14, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>Our Numbers</p>
+            <h2 className="sec-title">Trusted by thousands<br/>worldwide</h2>
+          </div>
+          <div className="row g-4 justify-content-center text-center">
+            {COUNTERS.map((c) => (
+              <div key={c.label} className="col-6 col-md-3">
+                <div style={{ padding: "32px 16px", background: "rgba(14,165,233,0.06)", border: "1px solid rgba(14,165,233,0.22)", borderRadius: 20, transition: "all .3s" }}>
+                  <div style={{ fontSize: "clamp(2.2rem, 4.5vw, 3.4rem)", fontWeight: 900, color: "#fff", fontFamily: "var(--font-head)", lineHeight: 1.05, marginBottom: 10 }}>{c.value}</div>
+                  <div style={{ fontSize: 16, color: "var(--text-sec)", fontWeight: 500 }}>{c.label}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="video-band" style={{ position: "relative", overflow: "hidden" }}>
       {/* Background orbs */}
       <div className="orb orb-purple" style={{ width: 400, height: 400, top: -100, left: -100, opacity: 0.25, filter: "blur(80px)", position: "absolute" }} />
       <div className="orb orb-pink"   style={{ width: 350, height: 350, bottom: -80, right: -80, opacity: 0.2, filter: "blur(80px)", position: "absolute" }} />
@@ -71,6 +98,7 @@ export default function Stats() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
