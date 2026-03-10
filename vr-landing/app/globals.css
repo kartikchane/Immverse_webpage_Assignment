@@ -511,6 +511,12 @@ a { text-decoration: none; color: inherit; }
   .hero-text-col .hero-sub-para  { margin-left: auto; margin-right: auto; }
   .hero-text-col .online-strip   { justify-content: center; }
 
+  /* Features header center on mobile */
+  .features-col-left  { text-align: center; }
+  .features-col-right { text-align: center; }
+  .features-col-right .sec-sub { margin-left: auto; margin-right: auto; }
+  .features-col-right .btn-wrap { display: flex; justify-content: center; }
+
   /* Video band text center on mobile */
   .video-band-text { text-align: center; }
 

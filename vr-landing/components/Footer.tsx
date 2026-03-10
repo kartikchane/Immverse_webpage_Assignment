@@ -15,15 +15,15 @@ export default function Footer() {
         <div className="row g-5 mb-5">
 
           {/* Brand col */}
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4 text-center text-md-start">
             <div className="nav-brand mb-3" style={{ fontSize: 22 }}>
               IMMVERSE<span>AI</span>
             </div>
-            <p style={{ color: "#786888", fontSize: 14, lineHeight: 1.8, maxWidth: 260, marginBottom: 24 }}>
+            <p style={{ color: "#786888", fontSize: 14, lineHeight: 1.8, maxWidth: 260, marginBottom: 24, margin: "0 auto 24px" }}>
               Experience the future of virtual reality. Explore three-dimensional visuals
               and immersive digital worlds.
             </p>
-            <div className="d-flex gap-3">
+            <div className="d-flex gap-3 justify-content-center justify-content-md-start" style={{ marginTop: 24 }}>
               {[FaTwitter, FaInstagram, FaLinkedin, FaGithub].map((Icon, i) => (
                 <a
                   key={i}
@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* Link columns */}
           {Object.entries(LINKS).map(([group, items]) => (
-            <div key={group} className="col-6 col-md-2">
+            <div key={group} className="col-6 col-md-2 text-center text-md-start">
               <h6 style={{ color: "#fff", fontWeight: 700, marginBottom: 16, fontSize: 13, textTransform: "uppercase", letterSpacing: 1 }}>
                 {group}
               </h6>

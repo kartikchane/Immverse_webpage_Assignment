@@ -46,21 +46,23 @@ export default function Testimonials() {
         <div className="row g-4">
           {TESTIMONIALS.map((t) => (
             <div key={t.name} className="col-12 col-md-4">
-              <div className="testi-card" style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+              <div className="testi-card" style={{ display: "flex", flexDirection: "column", height: "100%", textAlign: "center" }}>
                 {/* Quote icon */}
-                <FaQuoteLeft size={24} color="rgba(14,165,233,0.35)" style={{ marginBottom: 16 }} />
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                  <FaQuoteLeft size={24} color="rgba(14,165,233,0.35)" style={{ marginBottom: 16 }} />
+                </div>
                 {/* Quote text */}
                 <p className="testi-text" style={{ flex: 1 }}>{t.text}</p>
                 {/* Divider */}
-                <div style={{ width: 40, height: 2, background: "rgba(14,165,233,0.4)", margin: "16px 0" }} />
+                <div style={{ width: 40, height: 2, background: "rgba(14,165,233,0.4)", margin: "16px auto" }} />
                 {/* Stars */}
-                <div style={{ display: "flex", gap: 3, marginBottom: 16 }}>
+                <div style={{ display: "flex", gap: 3, marginBottom: 16, justifyContent: "center" }}>
                   {Array.from({ length: t.rating }).map((_, i) => (
                     <FaStar key={i} size={13} color="#0ea5e9" />
                   ))}
                 </div>
                 {/* Author */}
-                <div className="d-flex align-items-center gap-3">
+                <div className="d-flex align-items-center justify-content-center gap-3">
                   <div
                     style={{
                       width: 44,

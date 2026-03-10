@@ -35,20 +35,22 @@ export default function Features() {
       <div className="orb orb-purple" style={{ width: 500, height: 500, top: "10%", right: -1100, opacity: 0.3, filter: "blur(90px)", position: "absolute" }} />
       <div className="container" style={{ position: "relative", zIndex: 1 }}>
         <div className="row align-items-end mb-5">
-          <div className="col-12 col-md-7">
+          <div className="col-12 col-md-7 features-col-left">
             <p className="pink-text mb-2" style={{ fontSize: 16, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>Our Features</p>
             <h2 className="sec-title">
               New Experience In<br />Playing Game
             </h2>
           </div>
-          <div className="col-12 col-md-5">
+          <div className="col-12 col-md-5 features-col-right">
             <p className="sec-sub ms-md-auto">
               You can try playing the game with a new style and of course a more real feel,
               like you are the main character in your game and adventure in this new digital world.
             </p>
-            <Link href="#cta" className="btn-primary-vr mt-3" style={{ display: "inline-flex" }}>
-              Get It Now
-            </Link>
+            <div className="btn-wrap mt-3">
+              <Link href="#cta" className="btn-primary-vr" style={{ display: "inline-flex" }}>
+                Get It Now
+              </Link>
+            </div>
           </div>
         </div>
         <div className="row g-3">
