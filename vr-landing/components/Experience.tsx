@@ -13,7 +13,7 @@ export default function Experience() {
 
           {/* LEFT — two cut-corner cards side-by-side with slight overlap */}
           <div className="col-12 col-lg-6">
-            <div className="exp-overlap-wrap" style={{ margin: "0 auto" }}>
+            <div className="exp-overlap-wrap" style={{ marginLeft: 0, marginRight: 0 }}>
 
               {/* Back card — woman with VR glasses */}
               <div className="exp-card-back" style={{ position: "relative" }}>
@@ -69,7 +69,7 @@ export default function Experience() {
           </div>
 
           {/* RIGHT — text */}
-          <div className="col-12 col-lg-6 exp-text-col" style={{ paddingLeft: "clamp(16px, 6vw, 80px)" }}>
+          <div className="col-12 col-lg-6 exp-text-col" style={{ paddingLeft: "clamp(32px, 6vw, 80px)" }}>
             <h2 className="mb-3" style={{
               fontSize: "clamp(2.2rem, 4.5vw, 3.8rem)",
               fontWeight: 900,

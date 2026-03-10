@@ -20,7 +20,7 @@ export default function CTASection() {
       />
 
       <div className="container text-center" style={{ position: "relative", zIndex: 1 }}>
-        <p className="pink-text mb-2" style={{ fontSize: 13, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>
+        <p className="pink-text mb-2" style={{ fontSize: 16, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>
           Get Started
         </p>
         <h2 className="sec-title mb-3">

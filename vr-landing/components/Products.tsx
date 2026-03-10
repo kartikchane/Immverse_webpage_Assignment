@@ -37,7 +37,7 @@ export default function Products() {
 
       <div className="container" style={{ position: "relative", zIndex: 1 }}>
         <div className="text-center mb-5">
-          <p className="pink-text mb-2" style={{ fontSize: 14, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>Our Products</p>
+          <p className="pink-text mb-2" style={{ fontSize: 16, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>Our Products</p>
           <h2 className="sec-title mb-3">Top VR Gear to<br/>Elevate Your World</h2>
           <p className="sec-sub mx-auto" style={{ maxWidth: 480 }}>
             Explore our curated selection of the best virtual reality headsets for every budget and use case.

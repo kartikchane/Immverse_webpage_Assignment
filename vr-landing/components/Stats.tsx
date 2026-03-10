@@ -17,7 +17,7 @@ export default function Stats() {
         <div style={{ position: "absolute", top: -80, right: -100, width: 400, height: 400, borderRadius: "50%", background: "radial-gradient(circle, rgba(14,165,233,0.18) 0%, transparent 70%)", filter: "blur(80px)", pointerEvents: "none" }} />
         <div className="container" style={{ position: "relative", zIndex: 1 }}>
           <div className="text-center mb-5">
-            <p className="pink-text mb-2" style={{ fontSize: 14, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>Our Numbers</p>
+            <p className="pink-text mb-2" style={{ fontSize: 16, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>Our Numbers</p>
             <h2 className="sec-title">Trusted by thousands<br/>worldwide</h2>
           </div>
           <div className="row g-4 justify-content-center text-center">

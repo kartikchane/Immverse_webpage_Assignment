@@ -36,7 +36,7 @@ export default function Features() {
       <div className="container" style={{ position: "relative", zIndex: 1 }}>
         <div className="row align-items-end mb-5">
           <div className="col-12 col-md-7">
-            <p className="pink-text mb-2" style={{ fontSize: 13, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>Our Features</p>
+            <p className="pink-text mb-2" style={{ fontSize: 16, fontWeight: 600, textTransform: "uppercase", letterSpacing: 2 }}>Our Features</p>
             <h2 className="sec-title">
               New Experience In<br />Playing Game
             </h2>
