@@ -2,7 +2,7 @@ import { FaStar, FaQuoteLeft } from "react-icons/fa";
 
 const TESTIMONIALS = [
   {
-    name: "Robert Fox",
+    name: "Kartik Chanekar",
     role: "Gamer & Content Creator",
     initial: "R",
     color: "#0ea5e9",
@@ -10,7 +10,7 @@ const TESTIMONIALS = [
     rating: 5,
   },
   {
-    name: "Savannah Nguyen",
+    name: "Ayush Sharma",
     role: "3D Artist",
     initial: "S",
     color: "#0284c7",
@@ -18,7 +18,7 @@ const TESTIMONIALS = [
     rating: 5,
   },
   {
-    name: "Wade Warren",
+    name: "Riya Yadav",
     role: "VR Enthusiast",
     initial: "W",
     color: "#0369a1",

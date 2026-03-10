@@ -12,11 +12,11 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <Features />
       <Experience />
+      <Features />
       <Stats />
-      <Products />
       <Testimonials />
+      <Products />
       <CTASection />
       <Footer />
     </main>
